@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  headerPattern: /^(\w*)(?:\((.*)\))?: (.*)$/,
+  headerPattern: /^(?>Merged PR \d+: )?(\w*)(?:\((.*)\))?: (.*)$/,
   headerCorrespondence: [
     'type',
     'scope',
